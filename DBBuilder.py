@@ -8,7 +8,7 @@ it executs a purge of long unpaired comments to reduce querrying time."""
 
 time = ["2015-05"]
 #Specify which reddit batches are to be transformed
-start = 4120000
+start = 0
 #When interrupting the script to make improvements set this to last batch to start where I left off
 cleanup = 250000
 #This sets the step at which all but the last 30k unpaird comments are purged from the db
